@@ -1,0 +1,98 @@
+{
+  "main": {
+    "name": "Alex Birtwistle",
+    "occupation": "Software Developer",
+    "description": "I am an aspiring full stack web developer skilled in Javascript object oriented development",
+    "image": "profilepic.jpg",
+    "bio": "I initially worked with exclusively Java and C# through my early years of development, but have since moved on to my favourite language Javascript and its complementing libraries, NodeJS and ReactJS. My main hobbies are web development gaming, backpacking, and canoeing.",
+    "contactmessage": "If you would like to contact me, you can use this to email me directly!",
+    "email": "alex.birtwistle4@gmail.com",
+    "phone": "(902) 791-5181",
+    "address": {
+      "street": "172 Niel Court",
+      "city": "Essex",
+      "state": "Ontario",
+      "zip": "N8M 2A6"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "https://docs.google.com/document/d/1HUqJF1-6DVmdCjcjKzELuSIneseKojXaMnTymX0ReQM/edit?usp=sharing",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/alex-birtwistle-6507511b4/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/alexb192",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Technologies I'm currently learning.",
+    "education": [
+      {
+        "school": "University of Windsor",
+        "degree": "BSC (Honours) Computer Science",
+        "graduated": "January 2016 - Present",
+        "description": "I've taken a majority of the important courses for working in software development. The courses I've taken are listed in my written resume."
+      }
+    ],
+    "work": [
+      {
+        "company": "Awesome Design Studio",
+        "title": "Senior UX God ",
+        "years": "March 2010 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "description": "The language I prefer to develop everything in. It has access to many libraries that can be used for everything.",
+        "image": "javascript.jpg"
+      },
+      {
+        "name": "ReactJS",
+        "description": "A front-end design powerhouse that I use to greatly assist my front end development. This website is made using it.",
+        "image": "react.jpg"
+      },
+      {
+        "name": "NodeJS",
+        "description": "An extremely powerful runtime environment that allows me to use powerful javascript libraries and packages without having to use a browser.",
+        "image": "node.jpg"
+      },
+      {
+        "name": "Socket.io",
+        "description": "This is a library imported and used by NodeJS that allows you to set up a socket to communicate between multiple clients.",
+        "image": "socketio.jpg"
+      },
+      {
+        "name": "Java",
+        "description": "My first object oriented programming language, and the one that I spent the most time developing with.",
+        "image": "java.jpg"
+      },
+      {
+        "name": "Git",
+        "description": "I have only recently started using git specifically so I could keep my projects safe online and update them through linux commands.",
+        "image": "git.jpg"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": []
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "absolute god programmer",
+        "user": "me"
+      },
+      {
+        "text": "also a god gamer",
+        "user": "me"
+      }
+    ]
+  }
+}
