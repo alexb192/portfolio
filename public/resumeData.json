@@ -4,7 +4,7 @@
     "occupation": "Software Developer",
     "description": "I am an aspiring full stack web developer skilled in Javascript object oriented development",
     "image": "profilepic.jpg",
-    "bio": "I initially worked with exclusively Java and C# through my early years of development, but have since moved on to my favourite language Javascript and its complementing libraries, NodeJS and ReactJS. My main hobbies are web development gaming, backpacking, and canoeing.",
+    "bio": "I initially worked with exclusively Java and C# through my early years of development, but have since moved on to my favourite language Javascript and its complementing libraries, NodeJS and ReactJS. My main hobbies are web development, gaming, backpacking, and canoeing.",
     "contactmessage": "If you would like to contact me, you can use this to email me directly!",
     "email": "alex.birtwistle4@gmail.com",
     "phone": "(902) 791-5181",
@@ -15,7 +15,7 @@
       "zip": "N8M 2A6"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://docs.google.com/document/d/1HUqJF1-6DVmdCjcjKzELuSIneseKojXaMnTymX0ReQM/edit?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1aOXpq84fPJmCLBjYfh2FLcuPUxJgSvpo/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -50,7 +50,7 @@
     "skills": [
       {
         "name": "Javascript",
-        "description": "The language I prefer to develop everything in. It has access to many libraries that can be used for everything.",
+        "description": "The language I prefer to develop everything in. It has access to near limitless powerful libraries.",
         "image": "javascript.jpg"
       },
       {
@@ -60,12 +60,12 @@
       },
       {
         "name": "NodeJS",
-        "description": "An extremely powerful runtime environment that allows me to use powerful javascript libraries and packages without having to use a browser.",
+        "description": "An extremely powerful runtime environment that allows me to use javascript libraries and packages.",
         "image": "node.jpg"
       },
       {
         "name": "Socket.io",
-        "description": "This is a library imported and used by NodeJS that allows you to set up a socket to communicate between multiple clients.",
+        "description": "This is a library used by NodeJS that allows you to set up a socket to communicate between multiple clients.",
         "image": "socketio.jpg"
       },
       {
@@ -124,15 +124,6 @@
     ]
   },
   "testimonials": {
-    "testimonials": [
-      {
-        "text": "absolute god programmer",
-        "user": "me"
-      },
-      {
-        "text": "also a god gamer",
-        "user": "also me"
-      }
-    ]
+    "testimonials": []
   }
 }
