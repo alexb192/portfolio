@@ -15,7 +15,7 @@
       "zip": "N8M 2A6"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1aOXpq84fPJmCLBjYfh2FLcuPUxJgSvpo/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1MOvI0hbPvAZonBrmS47vAMiak6BZW_6U/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -50,47 +50,47 @@
     "skills": [
       {
         "name": "Javascript",
-        "description": "The language I prefer to develop everything in. It has access to near limitless powerful libraries.",
+        "description": "A vast language I'm most proficient in. Capable of doing almost everything I need it to.",
         "image": "javascript.jpg"
       },
       {
         "name": "ReactJS",
-        "description": "A front-end design powerhouse that I use to greatly assist my front end development. This website is made using it.",
+        "description": "A front-end design powerhouse that I'm most proficient in. This website is designed with it.",
         "image": "react.jpg"
       },
       {
         "name": "NodeJS",
-        "description": "An extremely powerful runtime environment that allows me to use javascript libraries and packages.",
+        "description": "A runtime environment with limitless access to open source libraries, packages, and modules.",
         "image": "node.jpg"
       },
       {
         "name": "Socket.io",
-        "description": "This is a library used by NodeJS that allows you to set up a socket to communicate between multiple clients.",
+        "description": "A NodeJS module that allows you to communicate with multiple clients using sockets.",
         "image": "socketio.jpg"
       },
       {
         "name": "Java",
-        "description": "My first object oriented programming language, and the one that I spent the most time developing with.",
+        "description": "My second most proficient language, I initially started out with it. Most of my coursework is done using this.",
         "image": "java.jpg"
       },
       {
         "name": "Git",
-        "description": "I have only recently started using git specifically so I could keep my projects safe online and update them through linux commands.",
+        "description": "Although still relatively new to git, I've become familiar with using git through command line and applications.",
         "image": "git.jpg"
       },
       {
         "name": "Heroku",
-        "description": "I used this service to host this website for free and I will host my future projects using this.",
+        "description": "A free web hosting platform that I was able to serve my react application to host.",
         "image": "heroku.jpg"
       },
       {
         "name": "C#",
-        "description": "I've used C# multiple times in different classes. I mostly used it for game development in Unity and rarely used it for group projects.",
+        "description": "One of my favourite languages that I've worked with a few times. I took some courses in University that required it.",
         "image": "csharp.jpg"
       },
       {
         "name": "Asp.net",
-        "description": "I've experimented with asp.net multiple times and I'm familiar with it and its MVC model.",
+        "description": "A strong C# front-end design library that I am moderately familiar with. I learned MVC through it.",
         "image": "aspnet.jpg"
       }
     ]
