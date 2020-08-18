@@ -17,7 +17,7 @@ class Resume extends Component {
       //   </div>
       // })
       var skills = this.props.data.skills.map(function (skills) {
-        return <div className="skills"><img alt="" width="120px" height="120px" src={"images/langicons/" + skills.image} /><h1 style={{ textAlign: "center" }}>{skills.name}</h1><p style={{ width: "130px" }}>{skills.description}</p></div>
+        return <div key={skills.name} className="skills"><img alt="" width="120px" height="120px" src={"images/langicons/" + skills.image} /><h1 style={{ textAlign: "center" }}>{skills.name}</h1><p style={{ width: "130px" }}>{skills.description}</p></div>
       })
     }
 

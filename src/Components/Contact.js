@@ -1,6 +1,39 @@
 import React, { Component } from 'react';
+import emailjs from 'emailjs-com';
 
 class Contact extends Component {
+
+   constructor(props) {
+      super(props);
+      this.state = {
+         feedback: '',
+         name: '',
+         email: '',
+         subject: ''
+      };
+      this.sendEmail = this.sendEmail.bind(this);
+   }
+
+
+   sendEmail(e) {
+      e.preventDefault();
+      emailjs.sendForm('gmail', 'portfolio', e.target, 'user_zB0Ub2v7UUR9ncWaei0AV');
+      this.setState({
+         feedback: '',
+         name: '',
+         email: '',
+         subject: '',
+         messageSent: false
+      })
+
+      document.getElementById('message-success').style.display = "block";
+
+      window.setTimeout(() => {
+         document.getElementById('message-success').style.display = "none";
+      }, 5000)
+
+   }
+
    render() {
 
       if (this.props.data) {
@@ -13,6 +46,7 @@ class Contact extends Component {
          // var email = this.props.data.email;
          var message = this.props.data.contactmessage;
       }
+
 
       return (
          <section id="contact">
@@ -36,36 +70,30 @@ class Contact extends Component {
             <div className="row">
                <div className="eight columns">
 
-                  <form method="post" id="contactForm" name="contactForm">
-                     <fieldset>
+                  <form className="contactForm" id="contactForm" name="contactForm" onSubmit={this.sendEmail}>
 
-                        <div>
-                           <label htmlFor="contactName">Name <span className="required">*</span></label>
-                           <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange} />
-                        </div>
+                     <div>
+                        <label htmlFor="contactName">Name <span className="required">*</span></label>
+                        <input type="text" size="35" id="contactName" name="contactName" value={this.state.name} onChange={(event) => this.setState({ name: event.target.value })} />
+                     </div>
 
-                        <div>
-                           <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                           <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange} />
-                        </div>
+                     <div>
+                        <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+                        <input type="text" size="35" id="contactEmail" name="contactEmail" value={this.state.email} onChange={(event) => this.setState({ email: event.target.value })} />
+                     </div>
 
-                        <div>
-                           <label htmlFor="contactSubject">Subject</label>
-                           <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange} />
-                        </div>
+                     <div>
+                        <label htmlFor="contactSubject">Subject</label>
+                        <input type="text" size="35" id="contactSubject" name="contactSubject" value={this.state.subject} onChange={(event) => this.setState({ subject: event.target.value })} />
+                     </div>
 
-                        <div>
-                           <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                           <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                        </div>
-
-                        <div>
-                           <button className="submit">Submit</button>
-                           <span id="image-loader">
-                              <img alt="" src="images/loader.gif" />
-                           </span>
-                        </div>
-                     </fieldset>
+                     <div>
+                        <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                        <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" value={this.state.feedback} onChange={(event) => this.setState({ feedback: event.target.value })} ></textarea>
+                     </div>
+                     <div>
+                        <input className="submit" type="submit" value="submit" />
+                     </div>
                   </form>
 
                   <div id="message-warning"> Error boy</div>

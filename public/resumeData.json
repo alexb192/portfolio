@@ -77,11 +77,51 @@
         "name": "Git",
         "description": "I have only recently started using git specifically so I could keep my projects safe online and update them through linux commands.",
         "image": "git.jpg"
+      },
+      {
+        "name": "Heroku",
+        "description": "I used this service to host this website for free and I will host my future projects using this.",
+        "image": "heroku.jpg"
+      },
+      {
+        "name": "C#",
+        "description": "I've used C# multiple times in different classes. I mostly used it for game development in Unity and rarely used it for group projects.",
+        "image": "csharp.jpg"
+      },
+      {
+        "name": "Asp.net",
+        "description": "I've experimented with asp.net multiple times and I'm familiar with it and its MVC model.",
+        "image": "aspnet.jpg"
       }
     ]
   },
   "portfolio": {
-    "projects": []
+    "projects": [
+      {
+        "title": "React Snake Game",
+        "image": "snakegame.jpg",
+        "category": "A React-based snake game",
+        "url": "https://github.com/alexb192/reactsnakegame"
+      },
+      {
+        "title": "Portfolio Website",
+        "image": "mywebsite.png",
+        "category": "You're looking at it!",
+        "url": "https://github.com/alexb192/portfolio"
+      },
+      {
+        "title": "PHP Group Project",
+        "image": "groupproject.png",
+        "category": "A PHP based planner done formally using documentation and agile software engineering.",
+        "url": "https://github.com/alexb192/95E18A186B127"
+      },
+      {
+        "title": "Bootleg Discord",
+        "image": "biscord2.png",
+        "category": "My first major project, a fully integrated login & chat system using Socket.io & Router.js. SQL is used for the login information.",
+        "url": "https://github.com/alexb192/biscordreact"
+      }
+    ]
   },
   "testimonials": {
     "testimonials": [
@@ -91,7 +131,7 @@
       },
       {
         "text": "also a god gamer",
-        "user": "me"
+        "user": "also me"
       }
     ]
   }
