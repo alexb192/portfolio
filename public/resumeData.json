@@ -2,7 +2,7 @@
   "main": {
     "name": "Alex Birtwistle",
     "occupation": "Software Developer",
-    "description": "I am an aspiring full stack web developer skilled in Javascript object oriented development",
+    "description": "I'm a fullstack developer in search of meaningful work experience",
     "image": "profilepic.jpg",
     "bio": "I initially worked with exclusively Java and C# through my early years of development, but have since moved on to my favourite language Javascript and its complementing libraries, NodeJS and ReactJS. My main hobbies are web development, gaming, backpacking, and canoeing.",
     "contactmessage": "If you would like to contact me, you can use this to email me directly!",
@@ -14,7 +14,6 @@
       "state": "Ontario",
       "zip": "N8M 2A6"
     },
-    "website": "http://www.timbakerdev.com",
     "resumedownload": "https://drive.google.com/file/d/1MOvI0hbPvAZonBrmS47vAMiak6BZW_6U/view?usp=sharing",
     "social": [
       {
@@ -70,28 +69,33 @@
       },
       {
         "name": "Java",
-        "description": "My second most proficient language, I initially started out with it. Most of my coursework is done using this.",
+        "description": "Language that the grand majority of my object oriented development was in. University of Windsor's favourite.",
         "image": "java.jpg"
       },
       {
         "name": "Git",
-        "description": "Although still relatively new to git, I've become familiar with using git through command line and applications.",
+        "description": "A tool I use to both host my finished applications, ",
         "image": "git.jpg"
       },
       {
         "name": "Heroku",
-        "description": "A free web hosting platform that I was able to serve my react application to host.",
+        "description": "Free web hosting platform I deploy React applications on.",
         "image": "heroku.jpg"
       },
       {
         "name": "C#",
-        "description": "One of my favourite languages that I've worked with a few times. I took some courses in University that required it.",
+        "description": "A personal favourite powerful language I used before Javascript.",
         "image": "csharp.jpg"
       },
       {
         "name": "Asp.net",
-        "description": "A strong C# front-end design library that I am moderately familiar with. I learned MVC through it.",
+        "description": "An open source web framework I worked with before learning React.",
         "image": "aspnet.jpg"
+      },
+      {
+        "name": "MongoDB",
+        "description": "An easy, scalable cloud-based database great for personal projects and small businesses.",
+        "image": "mongo.jpg"
       }
     ]
   },
