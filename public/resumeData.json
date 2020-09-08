@@ -96,6 +96,11 @@
         "name": "MongoDB",
         "description": "An easy, scalable cloud-based database great for personal projects and small businesses.",
         "image": "mongo.jpg"
+      },
+      {
+        "name": "Redux",
+        "description": "A state manager often used with React for scalable business grade applications.",
+        "image": "redux.jpg"
       }
     ]
   },
