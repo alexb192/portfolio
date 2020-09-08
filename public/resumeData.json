@@ -53,18 +53,18 @@
         "image": "javascript.jpg"
       },
       {
-        "name": "ReactJS",
+        "name": "React",
         "description": "A front-end design powerhouse that I'm most proficient in. This website is designed with it.",
         "image": "react.jpg"
       },
       {
-        "name": "NodeJS",
-        "description": "A runtime environment with limitless access to open source libraries, packages, and modules.",
+        "name": "Node",
+        "description": "A Javascript runtime environment with limitless access to open source libraries, packages, and modules.",
         "image": "node.jpg"
       },
       {
         "name": "Socket.io",
-        "description": "A NodeJS module that allows you to communicate with multiple clients using sockets.",
+        "description": "A Node library that allows you to communicate with multiple clients using sockets.",
         "image": "socketio.jpg"
       },
       {
@@ -101,6 +101,11 @@
         "name": "Redux",
         "description": "A state manager often used with React for scalable business grade applications.",
         "image": "redux.jpg"
+      },
+      {
+        "name": "Express",
+        "description": "Backend library used with Node to serve React applications and manage data.",
+        "image": "express.jpg"
       }
     ]
   },
