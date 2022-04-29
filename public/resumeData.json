@@ -2,20 +2,20 @@
   "main": {
     "name": "Alex Birtwistle",
     "occupation": "Software Developer",
-    "description": "I am an aspiring full stack web developer skilled in Javascript object oriented development",
+    "description": "I'm a student at the University of Windsor seeking to kickstart my career",
     "image": "profilepic.jpg",
-    "bio": "I initially worked with exclusively Java and C# through my early years of development, but have since moved on to my favourite language Javascript and its complementing libraries, NodeJS and ReactJS. My main hobbies are web development, gaming, backpacking, and canoeing.",
+    "bio": "I worked with Java in school and fell in love with JavaScript and its related frameworks and tools. I've used a lot of Oracle PL/SQL and PHPMyAdmin. My goal has been to learn the MERN stack and REST API development to be a flexible developer.",
     "contactmessage": "If you would like to contact me, you can use this to email me directly!",
     "email": "alex.birtwistle4@gmail.com",
-    "phone": "(902) 791-5181",
+    "phone": "(226) 350-5408",
     "address": {
       "street": "172 Niel Court",
       "city": "Essex",
       "state": "Ontario",
       "zip": "N8M 2A6"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1aOXpq84fPJmCLBjYfh2FLcuPUxJgSvpo/view?usp=sharing",
+    "website": "https://alexbportfolio.herokuapp.com",
+    "resumedownload": "https://docs.google.com/document/d/1dzIU38y9SjWZkXP08_xOo3l4Rpxqg2aE/edit?usp=sharing&ouid=110502634921185280918&rtpof=true&sd=true",
     "social": [
       {
         "name": "linkedin",
@@ -41,10 +41,10 @@
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "McDonald's",
+        "title": "Crew Member",
+        "years": "Winter 2020 - Present",
+        "description": "Expert in teamwork and communication, delivering products quick and on time."
       }
     ],
     "skills": [
@@ -98,10 +98,10 @@
   "portfolio": {
     "projects": [
       {
-        "title": "React Snake Game",
-        "image": "snakegame.jpg",
-        "category": "A React-based snake game",
-        "url": "https://github.com/alexb192/reactsnakegame"
+        "title": "React chess Game",
+        "image": "chess.png",
+        "category": "A React-based chess game",
+        "url": "https://github.com/alexb192/ChessReact"
       },
       {
         "title": "Portfolio Website",
