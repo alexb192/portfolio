@@ -50,48 +50,63 @@
     "skills": [
       {
         "name": "Javascript",
-        "description": "The language I prefer to develop everything in. It has access to near limitless powerful libraries.",
+        "description": "A vast language I'm most proficient in. Capable of doing almost everything I need it to.",
         "image": "javascript.jpg"
       },
       {
-        "name": "ReactJS",
-        "description": "A front-end design powerhouse that I use to greatly assist my front end development. This website is made using it.",
+        "name": "React",
+        "description": "A front-end design powerhouse that I'm most proficient in. This website is designed with it.",
         "image": "react.jpg"
       },
       {
-        "name": "NodeJS",
-        "description": "An extremely powerful runtime environment that allows me to use javascript libraries and packages.",
+        "name": "Node",
+        "description": "A Javascript runtime environment with limitless access to open source libraries, packages, and modules.",
         "image": "node.jpg"
       },
       {
         "name": "Socket.io",
-        "description": "This is a library used by NodeJS that allows you to set up a socket to communicate between multiple clients.",
+        "description": "A Node library that allows you to communicate with multiple clients using sockets.",
         "image": "socketio.jpg"
       },
       {
         "name": "Java",
-        "description": "My first object oriented programming language, and the one that I spent the most time developing with.",
+        "description": "Language that the grand majority of my object oriented development was in. University of Windsor's favourite.",
         "image": "java.jpg"
       },
       {
         "name": "Git",
-        "description": "I have only recently started using git specifically so I could keep my projects safe online and update them through linux commands.",
+        "description": "A tool I use to both host my finished applications, ",
         "image": "git.jpg"
       },
       {
         "name": "Heroku",
-        "description": "I used this service to host this website for free and I will host my future projects using this.",
+        "description": "Free web hosting platform I deploy React applications on.",
         "image": "heroku.jpg"
       },
       {
         "name": "C#",
-        "description": "I've used C# multiple times in different classes. I mostly used it for game development in Unity and rarely used it for group projects.",
+        "description": "A personal favourite powerful language I used before Javascript.",
         "image": "csharp.jpg"
       },
       {
         "name": "Asp.net",
-        "description": "I've experimented with asp.net multiple times and I'm familiar with it and its MVC model.",
+        "description": "An open source web framework I worked with before learning React.",
         "image": "aspnet.jpg"
+      },
+      {
+        "name": "MongoDB",
+        "description": "An easy, scalable cloud-based database great for personal projects and small businesses.",
+        "image": "mongo.jpg"
+      },
+      {
+        "name": "Redux",
+        "description": "A state manager often used with React for scalable business grade applications.",
+        "image": "redux.jpg"
+      },
+      {
+        "name": "Express",
+        "description": "Backend library used with Node to serve React applications and manage data.",
+        "image": "express.jpg"
       }
     ]
   },

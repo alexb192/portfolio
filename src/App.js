@@ -11,7 +11,7 @@ import Portfolio from './Components/Portfolio';
 
 class App extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       foo: 'bar',
@@ -20,25 +20,24 @@ class App extends Component {
 
     ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
-
   }
 
-  getResumeData(){
+  getResumeData() {
     $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
+      url: '/resumeData.json',
+      dataType: 'json',
       cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
+      success: function (data) {
+        this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err){
+      error: function (xhr, status, err) {
         console.log(err);
         alert(err);
       }
     });
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.getResumeData();
   }
 
